@@ -1,4 +1,50 @@
 
+# EDA - Time Series Models in Machine Learning
+
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+![ML](https://img.shields.io/badge/ML-Time%20Series-green)
+![Status](https://img.shields.io/badge/Status-Completed-success)
+
+A complete hands-on project on **Exploratory Data Analysis (EDA) and Time Series Forecasting** using real-world datasets. This repository demonstrates the journey from raw time-dependent data to accurate future predictions using ARIMA & SARIMA models.
+
+### 🔗 Live Project: [Google Colab Notebooks](https://github.com/munawirmt/EDA-Timeseries-models)
+
+---
+
+### 📌 Overview
+
+Time Series data is everywhere - from stock prices to flight passengers. This project focuses on:
+- Understanding patterns, trends, and seasonality
+- Handling non-stationary data
+- Building and evaluating classical forecasting models
+
+### 📂 Datasets Used
+
+1.  **Microsoft Stock Data (MSFT)** - For financial time series analysis
+2.  **Airline Passengers Dataset** - Classic dataset for seasonality & trend analysis
+3.  `AirPassengers.csv` - Monthly airline passenger numbers
+
+### 🛠️ Tech Stack & Models
+
+- **Language:** Python
+- **Libraries:** Pandas, NumPy, Matplotlib, Seaborn, Statsmodels
+- **Concepts:**
+    - Exploratory Data Analysis (EDA)
+    - Time Series Decomposition (Trend, Seasonality, Residual)
+    - Stationarity Check (ADF Test)
+    - **ARIMA** (AutoRegressive Integrated Moving Average)
+    - **SARIMA** (Seasonal ARIMA)
+- **Environment:** Google Colab
+
+### 📁 Repository Structure
+EDA-Timeseries-models/
+├── ARIMA_&_SARIMA_Model.ipynb      # Main ARIMA & SARIMA implementation
+├── EDA_Timeseries.ipynb            # Exploratory Data Analysis
+├── Time_series_with_microsoft_data.ipynb # Forecasting on MSFT data
+├── http://AirPassengers.csv               # Dataset
+├── http://microsoft.csv                   # Dataset
+└── http://README.md
+
 ### 🚀 Key Features & Workflow
 
 1.  **Data Cleaning & Visualization:** Handled missing values, plotted time series to identify patterns.
